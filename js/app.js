@@ -447,8 +447,8 @@ const ViewModel = function() {
   ];
   /**
    * Initializes the markers array and adds click listeners to each marker.
-   * @param {any} markers The markers array is a ko.observableArray that once
-   * the function completes will hold a marker object for each location inside of the
+   * @param {any} markers Before this function is called markers is an empty array. Once
+   * the function completes will hold a location object for each location inside of the
    * locations array.
    */
   function initMarkers(locations, markers) {
