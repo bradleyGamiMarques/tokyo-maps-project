@@ -1,0 +1,95 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.applicationOptions {
+  position: relative;
+  width: 300px;
+  height: 100vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #101111;
+}
+.listing {
+  text-align: left;
+  list-style: none;
+  color: white;
+}
+
+.listing > li {
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 16px;
+  cursor: pointer;
+}
+
+.panel-search > input{
+    text-indent: 5px;
+    margin-left: 20px;
+    line-height: 1.5;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid whitesmoke;
+}
+
+.hamburger-container{
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 30px;
+  padding: 2px;
+  margin: 6px 0;
+  z-index: 1;
+}
+
+.hamburger-container:hover .bar1{
+  background-color: red;
+}
+.hamburger-container:hover .bar2{
+  background-color: red;
+}
+.hamburger-container:hover .bar3{
+  background-color: red;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 2px;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  background-color: #FFF;
+}
+.bar3{
+  margin-bottom: 2px;
+}
+
+#map {
+  width: 100%;
+  height: 100vh;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+.hideMenu{
+  display: none;
+}
